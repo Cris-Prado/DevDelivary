@@ -1,0 +1,14 @@
+<main class="main">
+    <app-logoheader></app-logoheader>
+    <section class="formulario">
+        <h2 class="titulo">{{ title }}</h2>
+        <ng-content></ng-content><br>
+        <button class="btn-primary">{{ primaryBtnText }}</button>
+        <span class="bt-home">
+            <a routerLink="">
+                <i class="fa-solid fa-house"></i>
+            </a>
+        </span>
+    </section> 
+    <app-homefooter></app-homefooter>
+</main>
